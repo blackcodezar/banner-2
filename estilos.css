@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(195, 0, 255, 0.527);
+}
+.container{
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+@media (min-width: 376px) {
+    
+
+    .container{
+        width: auto;
+    }
+    
+ }
